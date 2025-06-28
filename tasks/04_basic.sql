@@ -1,0 +1,22 @@
+-- Создание базы и таблиц
+	
+-- 61. Создайте базу данных CinemaDB.
+-- 62. Создайте таблицу Cinemas (кинотеатры) с колонками: id, name, location.
+-- 63. Создайте таблицу Categories (категории) с колонками: id, name.
+-- 64. Создайте таблицу Movies (фильмы) с колонками: id, title, release_year, category_id.
+-- 65. Создайте таблицу Screenings (сеансы) с колонками: id, cinema_id, movie_id, showtime.
+-- 66. Добавьте в таблице Movies связь category_id → Categories(id).
+-- 67. Добавьте в таблице Screenings связи cinema_id → Cinemas(id) и movie_id → Movies(id).
+-- 68. В таблице Cinemas запретите NULL для name и location.
+-- 69. В таблице Movies сделайте release_year обязательным (NOT NULL).
+-- 70. Добавьте в Movies колонку duration (длительность в минутах).
+-- 71. Измените duration, чтобы оно по умолчанию было 90.
+-- 72. Удалите колонку location из Cinemas.
+-- 73. Переименуйте колонку title в movie_title в Movies.
+-- 74. Посмотрите стурктура табицы Screenings.
+-- 75. Удалите таблицу Screenings.
+-- 76. Очистите все данные в Movies, не удаляя структуру.
+-- 77. Посмотрите стурктура табицы Cinemas;
+-- 78. Посмотрите стурктура табицы Categories;
+-- 79. Посмотрите стурктура табицы Movies;
+-- 80. Посмотрите все таблицы из базы данных CinemaDB.
